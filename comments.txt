@@ -1,0 +1,50 @@
+https://fingodb.com/
+
+users
+"login": "string", "firstName": "string", "lastName": "string", "email": "string", "activated": "boolean", "langKey": "string", "imageUrl": "string"
+
+beverages
+"name": "string", "where": "string", "type": "string", "subType": "string", "alcohol": "number", "unit":"string"
+
+drinks
+"name": "string", "where": "string", "type": "string", "subType": "string", "glassware": "string", "process":"string", "iceType":"string", "imgCover":"string", "imgGlass":"string",
+
+production-steps
+"drinkName":"string","step":"number", "isAutmatic":"boolean", "itemName":"string","itemQty":"number","unit": "string"
+
+ingredients
+"name":"string","unit":"string"
+{ Sugar, Ice, Tea }
+
+garnishes
+"name":"string","unit":"string"
+{ Twist, Olives , Wheels, Wedges & Slices, Fans, Springs, Rimming }
+
+beverage-types
+"name":"string"
+
+drink-types
+"name":"string"
+{ vodka, gin, tequila, whiskey, rum, brandy, sparking wine, vermouth sweet, vermouth dry,  non alcohol }
+
+processes
+"name":"string"
+{ Stir, Shake, Build, Batching, Balance, Muddle, Blending }
+
+ice-types
+"name":"string"
+
+unites
+"name":"string"
+{ ml, piece, cube, wheel, wedge, slice, peel, dash }
+
+glass-type
+"name":"string", "quantity":"number"
+{ Rocks / LowBall, Martini, Coupe, Shot, Highball, Collins, Irish Coffee, Champagne, Copper Mug, Brandy, Cardial, Whiskey Sour, Nick and Nora }
+
+
+
+firebase
+
+$ npx expo customize metro.config.js
+-> isto ira criar a pasta metro.config.js
